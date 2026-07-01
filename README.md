@@ -34,16 +34,17 @@ I am a junior Java developer and a student at ITMO University, majoring in "Syst
 
 ## 🚀 My Projects
 
-My main project is the development of the **Route Manager** software for transport companies. This project gradually evolved from a desktop CLI application into a web service:
-
-* 🖥 **[Route Manager App](https://github.com/ivan-k-06/route-manager-app)** 
-  The base/desktop application where it all began. It implements the core business logic for route management and logistics.
-
-* 🌐 **[Web Route Manager](https://github.com/ivan-k-06/web-route-manager)** 
-  The basic web implementation of the service. This project helped me gain a deep understanding of how web servers and HTTP requests work.
+* 🎵 **[Music Bro Bot](https://github.com/ivan-k-06/music-bro-bot)** 
+  A Telegram bot that learns a user's favorite music genres and sends a fresh track daily using Last.fm recommendations.
 
 * 🍃 **[Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager)** 
-  A modern web service built with the Spring Framework. It demonstrates my understanding of current design patterns and enterprise development standards.
+  A modern web service built with the Spring Framework for transport companies. It demonstrates my understanding of current design patterns and enterprise development standards.
+
+* 🌐 **[Web Route Manager](https://github.com/ivan-k-06/web-route-manager)** 
+  The basic web implementation of the route management service. This project helped me gain a deep understanding of how web servers and HTTP requests work.
+
+* 🖥 **[Route Manager App](https://github.com/ivan-k-06/route-manager-app)** 
+  The base/desktop CLI application where the **Route Manager** software began. It implements the core business logic for route management and logistics.
 
 ## 📈 GitHub Stats
 
@@ -94,16 +95,17 @@ My main project is the development of the **Route Manager** software for transpo
 
 ## 🚀 Мои проекты
 
-Мой главный проект — разработка программного обеспечения **Route Manager** для транспортных компаний. Этот проект постепенно развивался из десктопного CLI-приложения в веб-сервис:
+* 🎵 **[Music Bro Bot](https://github.com/ivan-k-06/music-bro-bot)** 
+  Telegram-бот, который узнаёт любимые жанры пользователя и раз в день присылает ему свежий трек по подборке Last.fm.
 
-* 🖥 **[Route Manager App](https://github.com/ivan-k-06/route-manager-app)** 
-  Десктопное/базовое приложение, с которого всё началось. Здесь заложена основная бизнес-логика управления маршрутами и логистикой.
+* 🍃 **[Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager)** 
+  Современный веб-сервис для транспортных компаний, написанный с использованием Spring Framework. Демонстрирует мое понимание актуальных паттернов проектирования и корпоративных стандартов разработки.
 
 * 🌐 **[Web Route Manager](https://github.com/ivan-k-06/web-route-manager)** 
   Базовая веб-реализация сервиса. Этот проект помог мне глубоко понять, как работают веб-серверы и HTTP-запросы.
 
-* 🍃 **[Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager)** 
-  Современный веб-сервис, написанный с использованием Spring Framework. Демонстрирует мое понимание актуальных паттернов проектирования и корпоративных стандартов разработки.
+* 🖥 **[Route Manager App](https://github.com/ivan-k-06/route-manager-app)** 
+  Десктопное/базовое CLI-приложение, с которого началась разработка **Route Manager**. Здесь заложена основная бизнес-логика управления маршрутами и логистикой.
 
 ## 📈 Статистика GitHub
 
