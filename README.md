@@ -1,117 +1,132 @@
-<h4 align="right">
-  <a href="#english">🇬🇧 English</a> | <a href="#russian">🇷🇺 Русский</a>
-</h4>
+# Привет, я Иван 👋
 
-<a id="english"></a>
-# Hi, I'm Ivan! 👋
+Я начинающий фулстек-разработчик и студент НИУ ИТМО по направлению «Системное и прикладное программное обеспечение».
 
-I am a junior Java developer and a student at ITMO University, majoring in "System and Applied Software". I am passionate about building backend applications. I love solving complex and interesting problems and constantly strive to improve my skills by mastering new technologies.
+В разработку я пришёл через Java и бэкенд. Сначала писал консольные приложения, разбирался с сетевым взаимодействием и базами данных, затем перешёл к веб-приложениям на сервлетах и Spring Boot. Сейчас параллельно развиваюсь в бэкенде и фронтенде: углубляю знания Java и серверной разработки, а также учусь делать понятные и удобные интерфейсы для пользователей.
 
-## 🛠 Tech Stack
+Мне нравится собирать приложение целиком и понимать, как связаны его части: что происходит с данными в базе, как устроен запрос к серверу и как результат отображается в браузере.
 
-**Backend & Database:**
+## Немного обо мне
+
+- 🎓 Учусь в ИТМО и продолжаю развиваться в веб-разработке.
+- ☕ Основной язык — Java.
+- 🌐 Пишу серверную часть на Spring Boot и интерфейсы на HTML, CSS и JavaScript.
+- 🗄️ Для хранения данных использую PostgreSQL.
+- 🐳 Стараюсь делать проекты, которые можно запустить одной командой через Docker Compose.
+- 🧩 Развиваюсь в бэкенде и фронтенде, чтобы лучше понимать приложение целиком.
+
+## Стек
+
+### Бэкенд и базы данных
+
 <p>
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"/>
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="./assets/badges/java.svg" alt="Java">
+  <img src="./assets/badges/spring.svg" alt="Spring Boot">
+  <img src="./assets/badges/postgresql.svg" alt="PostgreSQL">
 </p>
 
-**Frontend:**
+### Фронтенд
+
 <p>
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="./assets/badges/javascript.svg" alt="JavaScript">
+  <img src="./assets/badges/html5.svg" alt="HTML5">
+  <img src="./assets/badges/css3.svg" alt="CSS3">
 </p>
 
-**Tools & OS:**
+### Инструменты
+
 <p>
-  <img src="https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/>
+  <img src="./assets/badges/docker.svg" alt="Docker">
+  <img src="./assets/badges/maven.svg" alt="Apache Maven">
+  <img src="./assets/badges/git.svg" alt="Git">
+  <img src="./assets/badges/github.svg" alt="GitHub">
+  <img src="./assets/badges/linux.svg" alt="Linux">
 </p>
 
-## 🚀 My Projects
+## Основные проекты
 
-My main project is the development of the **Route Manager** software for transport companies. This project gradually evolved from a desktop CLI application into a web service:
+### 🗺️ [Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager)
 
-* 🖥 **[Route Manager App](https://github.com/ivan-k-06/route-manager-app)** 
-  The base/desktop application where it all began. It implements the core business logic for route management and logistics.
+Фулстек-приложение для создания и хранения маршрутов. Это текущая и самая полная версия моего проекта Route Manager.
 
-* 🌐 **[Web Route Manager](https://github.com/ivan-k-06/web-route-manager)** 
-  The basic web implementation of the service. This project helped me gain a deep understanding of how web servers and HTTP requests work.
+Что уже реализовано:
 
-* 🍃 **[Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager)** 
-  A modern web service built with the Spring Framework. It demonstrates my understanding of current design patterns and enterprise development standards.
+- регистрация и вход пользователей;
+- добавление и удаление собственных маршрутов;
+- общая таблица маршрутов;
+- поиск по названию и владельцу;
+- сортировка данных в браузере;
+- поиск городов через OpenStreetMap Nominatim API;
+- автоматический расчёт расстояния между городами;
+- личная и общая статистика;
+- запуск приложения и PostgreSQL через Docker Compose.
 
-## 📈 GitHub Stats
+Стек проекта: `Java 17` · `Spring Boot` · `Spring MVC` · `Spring Data JPA` · `PostgreSQL` · `JSP` · `JavaScript` · `HTML/CSS` · `Docker`
 
-<p align="left">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=ivan-k-06&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ivan-k-06&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-## 📫 Contact Me
-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="20" height="20"> **Telegram:** [@xelangel69](https://t.me/xelangel69)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="20" height="20"> **Email:** [rivzkiank@gmail.com](mailto:rivzkiank@gmail.com)
-
-<br>
+На этом проекте я учился переносить готовую бизнес-логику в веб-приложение, работать с MVC, связывать формы с сервером и дополнять интерфейс интерактивностью на JavaScript.
 
 ---
 
-<br>
+### 🎵 [Music Bro Bot](https://github.com/ivan-k-06/music-bro-bot)
 
-<a id="russian"></a>
-# Привет, я Иван! 👋
+Telegram-бот для музыкальных рекомендаций. Пользователь выбирает любимые жанры, после чего бот может подобрать новый трек сразу или присылать рекомендации по расписанию.
 
-Я начинающий Java-разработчик, студент НИУ ИТМО, специальность "Системное и прикладное программное обеспечение". Я увлекаюсь созданием бэкенд-приложений. Люблю решать сложные и интересные задачи и постоянно стараюсь совершенствовать свои навыки, осваивая новые технологии.
+В проекте есть:
 
-## 🛠 Мой стек технологий
+- получение рекомендаций через Last.fm API;
+- защита от повторной отправки уже предложенных треков;
+- сохранение пользователей и истории в PostgreSQL;
+- настройка времени ежедневной рекомендации;
+- учёт часового пояса пользователя;
+- локализация на русский, английский, немецкий, испанский и французский языки;
+- управление через команды и inline-клавиатуру Telegram;
+- запуск через Docker Compose.
 
-**Backend & Database:**
-<p>
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"/>
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-</p>
+Стек проекта: `Java 17` · `Spring Boot` · `Spring Data JPA` · `PostgreSQL` · `Telegram Bot API` · `Last.fm API` · `Docker`
 
-**Frontend:**
-<p>
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-</p>
+Здесь я получил больше практики в работе с внешними API, планировщиками, локализацией и разделением логики по сервисам.
 
-**Tools & OS:**
-<p>
-  <img src="https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/>
-</p>
+## Как развивался Route Manager
 
-## 🚀 Мои проекты
+Route Manager появился как учебное консольное приложение, но постепенно превратился в веб-сервис. Я сохраняю разные этапы проекта, потому что по ним хорошо видно, какие технологии я изучал в разное время.
 
-Мой главный проект — разработка программного обеспечения **Route Manager** для транспортных компаний. Этот проект постепенно развивался из десктопного CLI-приложения в веб-сервис:
+| Этап | Проект | Что изучал |
+|---|---|---|
+| 1 | [Route Manager App](https://github.com/ivan-k-06/route-manager-app) | Java Core, коллекции, многопоточность, UDP, клиент-серверная архитектура и JDBC |
+| 2 | [Web Route Manager](https://github.com/ivan-k-06/web-route-manager) | HTTP, Jakarta Servlets, JSP, JSTL, веб-формы и работа Tomcat |
+| 3 | [Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager) | Spring Boot, MVC, JPA, внешние API и интерактивный веб-интерфейс |
 
-* 🖥 **[Route Manager App](https://github.com/ivan-k-06/route-manager-app)** 
-  Десктопное/базовое приложение, с которого всё началось. Здесь заложена основная бизнес-логика управления маршрутами и логистикой.
+## Что изучаю сейчас
 
-* 🌐 **[Web Route Manager](https://github.com/ivan-k-06/web-route-manager)** 
-  Базовая веб-реализация сервиса. Этот проект помог мне глубоко понять, как работают веб-серверы и HTTP-запросы.
+### Бэкенд
 
-* 🍃 **[Spring Route Manager](https://github.com/ivan-k-06/spring-route-manager)** 
-  Современный веб-сервис, написанный с использованием Spring Framework. Демонстрирует мое понимание актуальных паттернов проектирования и корпоративных стандартов разработки.
+- возможности Java и устройство Spring Boot;
+- проектирование REST API;
+- работу с PostgreSQL и управление схемой базы данных;
+- безопасность, авторизацию и обработку ошибок;
+- модульное и интеграционное тестирование серверной части.
 
-## 📈 Статистика GitHub
+### Фронтенд
 
-<p align="left">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=ivan-k-06&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ivan-k-06&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+- современный JavaScript и устройство браузера;
+- адаптивную вёрстку и доступность интерфейсов;
+- TypeScript и React;
+- взаимодействие интерфейса с REST API;
+- тестирование пользовательских сценариев.
 
-## 📫 Мои контакты
-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="20" height="20"> **Telegram:** [@xelangel69](https://t.me/xelangel69)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="20" height="20"> **Почта:** [rivzkiank@gmail.com](mailto:rivzkiank@gmail.com)
+Также изучаю Docker, автоматические проверки через CI и способы удобного развёртывания приложений.
+
+## Ближайшие планы
+
+- отделить клиентскую часть Route Manager от Spring-бэкенда;
+- сделать новый интерфейс на React и TypeScript;
+- описать API через OpenAPI;
+- добавить миграции базы данных и улучшить обработку ошибок на сервере;
+- доработать авторизацию и безопасность приложения;
+- добавить тесты для основной бизнес-логики и пользовательских сценариев;
+- опубликовать рабочее демо приложения.
+
+## Контакты
+
+- Telegram: [@xelangel69](https://t.me/xelangel69)
+- Почта: [rivzkiank@gmail.com](mailto:rivzkiank@gmail.com)
